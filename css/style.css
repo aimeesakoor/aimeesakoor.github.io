@@ -155,37 +155,7 @@ a:hover {
     background-color: transparent;
 }
 
-/* #Tablet (Portrait) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	.container {
-		width: 768px; 
-	}
-}
-
-/*  #Mobile (Portrait) - Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
-	.container { 
-		width: 95%; 
-	}
-	
-	#portfoliolist .portfolio {
-		width:48%;
-		margin:1%;
-	}		
-}
-
-/* #Mobile (Landscape) - Note: Design for a width of 480px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	.container {
-		width: 70%;
-	}
-}
-
-
-@media only screen and (min-width:768px) and (max-width:900px) {
-    body {
-        border: 3px solid blue;
-    }
+@media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
