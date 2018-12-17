@@ -106,7 +106,7 @@
         </div>
     </header>
 
-    <hr>
+
 
 
      <!-- aboutme -->
@@ -118,9 +118,10 @@
                     <center><img src="img/me.jpg" alt="Me"></center>
                     <br>
                     <br>
-  <p class="intro">Welcome to my portfolio, my name is Aimee Sakoor. I'm currently a student at LaGuardia Community College, I'm majoring in Web Design.
-      I've been working at a photography studio doing graphic design for about 3-4 years now, so most of the work I'll be showcasing
-      here are from clients I've had over the years. Hope you enjoy my work.
+  <p class="intro">Welcome to my portfolio, my name is Aimee Sakoor. I'm a student at LaGuardia Community College in NYC. I'm majoring in New Media,
+    where I've taken classes in Web design, Computer art, and 3D Animation, so that is a mojority of what you will see here.
+    I've also worked at a photography studio doing some minor Graphic Design work so you'll see some of that as well. Take a look around and if you have any
+    feedback or comments feel free to contact me.
     </p>
 
 
@@ -133,14 +134,167 @@
                 <!-- gallery -->
 
             <section id="gallery">
-                <h2>My Work</h2>
+                <h2>Gallery</h2>
                 <br>
                 <br>
               <div class="container">
-              <div class="jumbotron">
+            <!--  <div class="jumbotron">-->
                 <!-- Images used to open the lightbox -->
+                <ul id="filters" class="clearfix">
+                    <li><span class="filter active" data-filter=".web, .3d, .illustrator, .photoshop">All</span></li>
+                    <li><span class="filter" data-filter=".web">Web</span></li>
+                    <li><span class="filter" data-filter=".3d">3D</span></li>
+                    <li><span class="filter" data-filter=".illustrator">Illustrator</span></li>
+                    <li><span class="filter" data-filter=".photoshop">Photoshop</span></li>
+                </ul>
+                <div id="portfoliolist">
 
-                <div class="row2">
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">
+                            <a href="fix_menu/default.html" target="_blank"><img src="img/fixmenu.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="fix_menu/default.html" target="_blank">Milo Website</a>
+                                    <span class="text-category">Web Design</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">
+                            <a href="guessing-game/index.html" target="_blank"><img src="img/guessingame.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="guessing-game/index.html" target="_blank">Guessing Game</a>
+                                    <span class="text-category">Javascript Website</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">
+                            <a href="column-site/index.html" target="_blank"><img src="img/columnsite.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="column-site/index.html" target="_blank">City Guide</a>
+                                    <span class="text-category">Web Design</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio 3d" data-cat="3d">
+                        <div class="portfolio-wrapper">
+                            <a href="img/StillLife.png" data-lightbox="3D"><img src="img/StillLife.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="img/StillLife.png" data-lightbox="3D">Still Life</a>
+                                    <span class="text-category">Blender 3D Animation</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio 3d" data-cat="3d">
+                        <div class="portfolio-wrapper">
+                            <a href="img/Landscape.png" data-lightbox="3D"><img src="img/Landscape.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="img/Landscape.png" data-lightbox="3D">Forest</a>
+                                    <span class="text-category">Blender 3D Animation</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio 3d" data-cat="3d">
+                        <div class="portfolio-wrapper">
+                            <a href="img/HammerNail.png" data-lightbox="3D"><img src="img/HammerNail.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="img/HammerNail.png" data-lightbox="3D">Hammer & Nail</a>
+                                    <span class="text-category">Blender 3D Image</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio illustrator" data-cat="illustrator">
+                        <div class="portfolio-wrapper">
+                            <a href="img/SelfPortrait.png" data-lightbox="3D"><img src="img/SelfPortrait.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="img/SelfPortrait.png" data-lightbox="3D">SelfPortrait</a>
+                                    <span class="text-category">Adobe Illustrator</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio illustrator" data-cat="illustrator">
+                        <div class="portfolio-wrapper">
+                            <a href="img/Cover2.png" data-lightbox="3D"><img src="img/Cover2.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="img/Cover2.png" data-lightbox="3D">Pocahontas Magazine Cover</a>
+                                    <span class="text-category">Adobe Illustrator</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio illustrator" data-cat="illustrator">
+                        <div class="portfolio-wrapper">
+                            <a href="img/House.png" data-lightbox="3D"><img src="img/House.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="img/House.png" data-lightbox="3D">Picturesque House</a>
+                                    <span class="text-category">Adobe Illustrator</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio illustrator" data-cat="illustrator">
+                        <div class="portfolio-wrapper">
+                            <a href="img/Cover1.png" data-lightbox="3D"><img src="img/Cover1.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="img/Cover1.png" data-lightbox="3D">Disney Magazine Cover</a>
+                                    <span class="text-category">Adobe Illustrator</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio photoshop" data-cat="photoshop">
+                        <div class="portfolio-wrapper">
+                            <a href="img/FilmPoster.png" data-lightbox="3D"><img src="img/FilmPoster.png" alt="" /></a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <a href="img/FilmPoster.png" data-lightbox="3D">Annual Thompson Film Festival</a>
+                                    <span class="text-category">Adobe Photoshop & Adobe Illustrator</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+  <!--              <div class="row2">
 
             <div class="column">
               <p><a href="fix_menu/default.html"><img src="img/fixmenu.png"></a></p>
@@ -157,7 +311,7 @@
             <a href="img/janc.png" data-lightbox="3D"><img src="img/janc1.png"></a>
             <a href="img/HammerNail.png" data-lightbox="3D"><img src="img/HammerNail1.png"></a>
     </div>
-    </div>
+  </div> -->
 
 
 
@@ -208,331 +362,7 @@
       <center><span>&copy;2018 Aimee Sakoor</span></center>
 
 
-<ul id="filters" class="clearfix">
-    <li><span class="filter active" data-filter=".app, .card, .icon, .logo, .web">All</span></li>
-    <li><span class="filter" data-filter=".app">App</span></li>
-    <li><span class="filter" data-filter=".card">Card</span></li>
-    <li><span class="filter" data-filter=".icon">Icon</span></li>
-    <li><span class="filter" data-filter=".logo">Logo</span></li>
-    <li><span class="filter" data-filter=".web">Web</span></li>
-</ul>
 
-<div id="portfoliolist">
-
-    <div class="portfolio logo" data-cat="logo">
-        <div class="portfolio-wrapper">
-            <a href="img/SelfPortrait.png" data-lightbox="3D"><img src="img/SelfPortrait1.png" alt="" /></a>
-            <div class="label">
-                <div class="label-text">
-                    <a href="img/SelfPortrait.png" data-lightbox="3D">Bird Document</a>
-                    <span class="text-category">Logo</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio app" data-cat="app">
-        <div class="portfolio-wrapper">
-            <a href="fix_menu/default.html" target="_blank"><img src="img/portfolios/app/1.jpg" alt="" /></a>
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Visual Infography</a>
-                    <span class="text-category">APP</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio web" data-cat="web">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/web/4.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Sonor's Design</a>
-                    <span class="text-category">Web design</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio card" data-cat="card">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/card/1.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Typography Company</a>
-                    <span class="text-category">Business card</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio app" data-cat="app">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/app/3.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Weatherette</a>
-                    <span class="text-category">APP</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio card" data-cat="card">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/card/4.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">BMF</a>
-                    <span class="text-category">Business card</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio card" data-cat="card">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/card/5.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Techlion</a>
-                    <span class="text-category">Business card</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio logo" data-cat="logo">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/logo/1.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">KittyPic</a>
-                    <span class="text-category">Logo</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio app" data-cat="app">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/app/2.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Graph Plotting</a>
-                    <span class="text-category">APP</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio card" data-cat="card">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/card/2.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">QR Quick Response</a>
-                    <span class="text-category">Business card</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio logo" data-cat="logo">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/logo/6.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Mobi Sock</a>
-                    <span class="text-category">Logo</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio logo" data-cat="logo">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/logo/7.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Village Community Church</a>
-                    <span class="text-category">Logo</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio icon" data-cat="icon">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/icon/4.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Domino's Pizza</a>
-                    <span class="text-category">Icon</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio web" data-cat="web">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/web/3.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Backend Admin</a>
-                    <span class="text-category">Web design</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio icon" data-cat="icon">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/icon/1.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Instagram</a>
-                    <span class="text-category">Icon</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio web" data-cat="web">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/web/2.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Student Guide</a>
-                    <span class="text-category">Web design</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio icon" data-cat="icon">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/icon/2.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Scoccer</a>
-                    <span class="text-category">Icon</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio icon" data-cat="icon">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/icon/5.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">3D Map</a>
-                    <span class="text-category">Icon</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio web" data-cat="web">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/web/1.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Note</a>
-                    <span class="text-category">Web design</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio logo" data-cat="logo">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/logo/3.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Native Designers</a>
-                    <span class="text-category">Logo</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio logo" data-cat="logo">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/logo/4.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Bookworm</a>
-                    <span class="text-category">Logo</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio icon" data-cat="icon">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/icon/3.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Sandwich</a>
-                    <span class="text-category">Icon</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio card" data-cat="card">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/card/3.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Reality</a>
-                    <span class="text-category">Business card</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio logo" data-cat="logo">
-        <div class="portfolio-wrapper">
-            <img src="img/portfolios/logo/2.jpg" alt="" />
-            <div class="label">
-                <div class="label-text">
-                    <a class="text-title">Speciallisterne</a>
-                    <span class="text-category">Logo</span>
-                </div>
-                <div class="label-bg"></div>
-            </div>
-        </div>
-    </div>
-
-
-</div>
 
 <script type="text/javascript">
     $(function () {
@@ -549,7 +379,7 @@
                         filter: '.filter'
                     },
                     load: {
-                        filter: '.app'
+                        filter: '.web'
                     }
                 });
 
@@ -561,7 +391,7 @@
         filterList.init();
 
 
-    });	
+    });
 </script>
 </body>
 

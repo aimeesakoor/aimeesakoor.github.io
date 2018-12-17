@@ -1,0 +1,20 @@
+/* CSS files add styling rules to your content */
+html {
+        font-family: 'Merienda', verdana, sans-serif;
+      }
+h1{
+  font-family: 'Pacifico', verdana, sans-serif;
+  
+}
+body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+        background: rgba(18,25,31, 1);
+        color: #f2c6c0
+      }
+.lastResult {
+        color: #f3f4f6;
+        padding: 3px;
+      }
